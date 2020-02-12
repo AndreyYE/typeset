@@ -1,0 +1,342 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@font-face{
+    font-family: 'Gotham Pro';
+    src: url('fonts/GothamPro/GothamPro-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Philosopher';
+    src: url('fonts/Philosopher/Philosopher-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Manrope';
+    src: url('fonts/Manrope/Manrope-Regular.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    display: block;
+    margin: 0;
+    width: auto;
+    height: 500px;
+    background: red;
+}
+a{
+    text-decoration: none
+}
+a:hover, a:visited{
+    color: red;
+}
+.ex{
+    /*position: absolute;*/
+    width: 428px;
+    height: 428px;
+    left: 507px;
+    top: 296px;
+    opacity: 1;
+    border: 5px solid rgba(209, 209, 209, 1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+nav{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #222129;
+}
+#logo{
+    position: absolute;
+    width: 265px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+}
+#logo_title{
+
+    position: absolute;
+    width: 160px;
+    height: 15px;
+    left: 155px;
+    top: 70px;
+
+    font-family: Gotham Pro;
+    font-size: 15px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+#logo_img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+
+    background: url("icon.png");
+}
+#bg{
+    position: absolute;
+    width: 1440px;
+    height: 1440px;
+    left: 0;
+    top: -409.5px;
+}
+#ellipse1{
+    position: absolute;
+    width: 428px;
+    height: 428px;
+    left: 507px;
+    top: 705.5px;
+
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+#ellipse2{
+    position: absolute;
+    width: 654px;
+    height: 654px;
+    left: 394px;
+    top: 592.5px;
+
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+#Rectangle-3_7{
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    left: 271.5px;
+    top: 1030.5px;
+
+    background: #D1D1D1;
+    opacity: 0.15;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+#Rectangle-3_6{
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    left: -239.5px;
+    top: 1030.5px;
+
+    background: #D1D1D1;
+    opacity: 0.15;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+#Rectangle-3_5{
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    left: -619.5px;
+    top: 1030.5px;
+
+    background: #D1D1D1;
+    opacity: 0.15;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+#Rectangle-3_4{
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    left: 584.5px;
+    top: 1030.5px;
+
+    background: #D1D1D1;
+    opacity: 0.15;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+#Rectangle-3_3{
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    left: 0;
+    top: 1030.5px;
+
+    background: #D1D1D1;
+    opacity: 0.15;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+#Rectangle-3_2{
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    left: 0px;
+    top: 608.5px;
+
+    background: #D1D1D1;
+    opacity: 0.15;
+}
+#Rectangle-3_1{
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    left: 0px;
+    top: 1228.5px;
+
+    background: #D1D1D1;
+    opacity: 0.15;
+}
+.close{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1390px;
+    top: 67.39px;
+    cursor: pointer;
+}
+.close:before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 32px;
+    left: 15px;
+    top: 0;
+    background: #FFFFFF;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+
+}
+.close:after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 32px;
+    left: 15px;
+    top: 0;
+
+    background: #FFFFFF;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.close:hover:before, .close:hover:after{
+    background: red;
+}
+
+.menu-item{
+    position: absolute;
+    font-family: Philosopher;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.menu-item-1{
+    width: 210px;
+    height: 49px;
+    left: 276px;
+    top: 342px;
+}
+.menu-item-2{
+    width: 261px;
+    height: 51px;
+    left: 619px;
+    top: 342px;
+}
+.menu-item-3{
+    width: 164px;
+    height: 51px;
+    left: 962px;
+    top: 342px;
+}
+.menu-item-4{
+    width: 209px;
+    height: 51px;
+    left: 276px;
+    top: 560px;
+}
+.menu-item-5{
+    width: 268px;
+    height: 51px;
+    left: 619px;
+    top: 560px;
+}
+.menu-item-6{
+    width: 202px;
+    height: 51px;
+    left: 961px;
+    top: 560px;
+}
+.menu-item-down{
+    position: absolute;
+
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 28px;
+
+    letter-spacing: 0.1em;
+
+    color: #D1D1D1;
+}
+.menu-item-down-1{
+    width: 186px;
+    height: 20px;
+    left: 278px;
+    top: 404px;
+}
+.menu-item-down-1{
+    width: 186px;
+    height: 20px;
+    left: 278px;
+    top: 404px;
+}
+.menu-item-down-2{
+    width: 291px;
+    height: 20px;
+    left: 621px;
+    top: 404px;
+}
+.menu-item-down-3{
+    width: 225px;
+    height: 20px;
+    left: 964px;
+    top: 404px;
+}
+.menu-item-down-4{
+    width: 249px;
+    height: 20px;
+    left: 278px;
+    top: 622px;
+}
+.menu-item-down-5{
+    width: 265px;
+    height: 20px;
+    left: 621px;
+    top: 622px;
+}
+.menu-item-down-6{
+    width: 249px;
+    height: 20px;
+    left: 963px;
+    top: 622px;
+}
